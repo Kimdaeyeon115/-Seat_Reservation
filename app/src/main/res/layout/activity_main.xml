@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#53E1FD"
+        android:gravity="center"
+        android:text="안녕하세요 휴게실 예약시스템입니다."
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="148dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/woosuk_logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="예약을 시작하려면 아래 이미지를 눌러주세요"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/ImageStart"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:src="@drawable/restroom" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="*이미지를 눌러 예약을 시작하세요."
+        android:textSize="12dp" />
+
+</LinearLayout>
